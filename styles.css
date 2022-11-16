@@ -2,6 +2,33 @@
 
 html,
 body {
-  background-color: black;
+  background-color: rgb(34, 128, 210);
   color: lightgrey;
 }
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+img {
+  width: 1.5rem;
+}
+
+section,
+article,
+div,
+header,
+aside {
+  border: dashed black 3px;
+}
+
+
+
