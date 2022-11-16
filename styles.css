@@ -1,9 +1,20 @@
 /* Element Rules*/
 
-html,
-body {
+html {
   background-color: rgb(34, 128, 210);
   color: lightgrey;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  width: 75vw;
 }
 
 h1 {
@@ -30,5 +41,23 @@ aside {
   border: dashed black 3px;
 }
 
+aside {
+  width: 25vw;
+  text-align: center;
+}
+
+/* Class Rules*/
+
+.color-pallete {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.palette-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
 
 
