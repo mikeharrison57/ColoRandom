@@ -5,4 +5,4 @@ class Color {
   }
 }
 
-module.export = Color;
+module.exports = Color;
