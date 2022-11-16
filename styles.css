@@ -26,11 +26,14 @@ h3 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  margin: .2rem;
 }
 
 img {
   width: 1.5rem;
+  height: 1.5rem;
+  margin: .2rem;
 }
 
 section,
@@ -39,6 +42,10 @@ div,
 header,
 aside {
   border: dashed black 3px;
+}
+
+button {
+  padding: 1rem;
 }
 
 aside {
@@ -52,6 +59,21 @@ aside {
   display: flex;
   justify-content: space-evenly;
   padding: 5rem;
+}
+
+.color-container {
+  padding: 1rem;
+}
+
+.color-box {
+  padding: 5rem;
+  background-color: #24680A;
+}
+
+.hexcode-container {
+  display: flex;
+  align-items: center;
+  padding: .1rem 1rem;
 }
 
 .palette-buttons {
