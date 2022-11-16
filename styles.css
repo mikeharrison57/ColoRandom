@@ -1,0 +1,85 @@
+/* Element Rules*/
+
+html {
+  background-color: rgb(34, 128, 210);
+  color: lightgrey;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  width: 75vw;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: .2rem;
+}
+
+img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: .2rem;
+}
+
+section,
+article,
+div,
+header,
+aside {
+  border: dashed black 3px;
+}
+
+button {
+  padding: 1rem;
+}
+
+aside {
+  width: 25vw;
+  text-align: center;
+}
+
+/* Class Rules*/
+
+.color-pallete {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.color-container {
+  padding: 1rem;
+}
+
+.color-box {
+  padding: 5rem;
+  background-color: #24680A;
+}
+
+.hexcode-container {
+  display: flex;
+  align-items: center;
+  padding: .1rem 1rem;
+}
+
+.palette-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+
